@@ -15,6 +15,7 @@
         android:layout_marginTop="110dp"
         android:background="@drawable/cuestionario2"
         android:contentDescription="@string/btn_cuestionario"
+        android:onClick="acrivityRompecabezas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cuestionario" />

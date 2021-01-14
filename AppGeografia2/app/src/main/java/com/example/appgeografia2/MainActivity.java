@@ -39,7 +39,10 @@ private final int REQUEST_ACCESS_FINE = 0;
         Intent lecciones = new Intent(getApplicationContext(),Activity_Lecciones.class);
         startActivity(lecciones);
     }
-
+    public void acrivityRompecabezas(View view){
+        Intent rompecabezas = new Intent(getApplicationContext(), Activity_Rompecabezas.class);
+        startActivity(rompecabezas);
+    }
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
