@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Geografia VI</string>
+    <string name="lbl_titulo">Geografia</string>
+
+    <string name="lbl_cuestionario">Cuestionario</string>
+    <string name="lbl_brujula">Brujula</string>
+    <string name="lbl_ubicacion">Ubicacion</string>
+    <string name="lbl_lecciones">Lecciones</string>
+    <string name="lbl_galeria">Galeria</string>
+
+    <string name="btn_cuestionario">Cuestionario</string>
+    <string name="btn_brujula">Brújula</string>
+    <string name="btn_ubicacion">Ubicación</string>
+    <string name="btn_lecciones">Lecciones</string>
+    <string name="btn_galeria">Galeria</string>
+    <string name="lbl_geolocalizacion">Coordenadas Geográficas</string>
+    <string name="lbl_latitud">Latitud: </string>
+    <string name="lbl_longitud">Longitud: </string>
+    <string name="lbl_altitud">Altitud: </string>
+
+    <string name="lbl_estudio">I El estudio de la Tierra</string>
+    <string name="lbl_naturaleza">II La naturaleza y el desarrollo sustentable</string>
+    <string name="lbl_poblacion">III La poblacion y su diversidad</string>
+    <string name="lbl_economia">IV La economia mundial</string>
+
+
+</resources>
