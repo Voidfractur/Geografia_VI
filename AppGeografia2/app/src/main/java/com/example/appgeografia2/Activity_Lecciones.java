@@ -18,4 +18,8 @@ public class Activity_Lecciones extends AppCompatActivity {
         Intent rompecabezas = new Intent(getApplicationContext(), Activity_Rompecabezas.class);
         startActivity(rompecabezas);
     }
+    public void acrivityCiudades(View view){
+        Intent ciudades = new Intent(getApplicationContext(), Activity_Ciudades.class);
+        startActivity(ciudades);
+    }
 }

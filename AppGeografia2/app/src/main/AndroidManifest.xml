@@ -13,8 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Activity_Rompecabezas"></activity>
-        <!-- android:theme="@style/Theme.AppGeografia2" -->
+        <activity android:name=".Activity_Ciudades"></activity>
+        <activity android:name=".Activity_Rompecabezas" /> <!-- android:theme="@style/Theme.AppGeografia2" -->
         <activity android:name=".Activity_Lecciones" />
         <activity android:name=".Activity_Galeria" />
         <activity android:name=".Activity_Ubicacion" />

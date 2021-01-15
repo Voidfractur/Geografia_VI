@@ -51,6 +51,23 @@
                 android:textColor="@color/cardview_light_background"
                 android:textSize="18sp" />
 
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:onClick="acrivityCiudades"
+                app:srcCompat="@drawable/ciudad" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="II Ciudades y Paises"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp" />
+
             <ImageButton
                 android:id="@+id/imageButton7"
                 android:layout_width="wrap_content"
