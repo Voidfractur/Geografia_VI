@@ -95,6 +95,7 @@
                 android:layout_gravity="center"
                 android:background="?android:attr/activatedBackgroundIndicator"
                 android:contentDescription="@string/btn_lecciones"
+                android:onClick="acrivityAcele"
                 app:srcCompat="@drawable/personasydiversidad" />
 
             <TextView

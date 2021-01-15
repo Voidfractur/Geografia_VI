@@ -26,4 +26,8 @@ public class Activity_Lecciones extends AppCompatActivity {
         Intent capitales = new Intent(getApplicationContext(), Activity_Capitales.class);
         startActivity(capitales);
     }
+    public void acrivityAcele(View view){
+        Intent acele = new Intent(getApplicationContext(), Activity_Acelerometro.class);
+        startActivity(acele);
+    }
 }
