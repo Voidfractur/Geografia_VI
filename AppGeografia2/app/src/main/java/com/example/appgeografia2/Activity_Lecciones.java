@@ -22,4 +22,8 @@ public class Activity_Lecciones extends AppCompatActivity {
         Intent ciudades = new Intent(getApplicationContext(), Activity_Ciudades.class);
         startActivity(ciudades);
     }
+    public void acrivityCapitales(View view){
+        Intent capitales = new Intent(getApplicationContext(), Activity_Capitales.class);
+        startActivity(capitales);
+    }
 }
