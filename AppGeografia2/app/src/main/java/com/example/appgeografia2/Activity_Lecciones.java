@@ -30,4 +30,8 @@ public class Activity_Lecciones extends AppCompatActivity {
         Intent acele = new Intent(getApplicationContext(), Activity_Acelerometro.class);
         startActivity(acele);
     }
+    public void acrivitMapa(View view){
+        Intent mapa = new Intent(getApplicationContext(), MapaMexico.class);
+        startActivity(mapa);
+    }
 }

@@ -88,15 +88,12 @@
                 android:textColor="@color/cardview_light_background"
                 android:textSize="18sp" />
 
-            <ImageButton
-                android:id="@+id/imageButton8"
-                android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="?android:attr/activatedBackgroundIndicator"
-                android:contentDescription="@string/btn_lecciones"
                 android:onClick="acrivityAcele"
-                app:srcCompat="@drawable/personasydiversidad" />
+                app:srcCompat="@drawable/tierraengrane" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -108,14 +105,12 @@
                 android:textColor="@color/cardview_light_background"
                 android:textSize="18sp" />
 
-            <ImageButton
-                android:id="@+id/imageButton10"
-                android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="?android:attr/activatedBackgroundIndicator"
-                android:contentDescription="@string/btn_lecciones"
-                app:srcCompat="@drawable/laeconomiamundial" />
+                android:onClick="acrivitMapa"
+                app:srcCompat="@drawable/mundo" />
 
             <TextView
                 android:id="@+id/textView10"

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedorpre3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="respuestaCorrecta"
+    android:orientation="vertical"
+    tools:context=".Blank_pregunta3">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center|center_horizontal"
+        android:text="¿Cual es la capital de Tlaxcala?"
+        android:textColor="#d62828"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:src="@drawable/tlaxcala" />
+
+    <Button
+        android:id="@+id/btn1pre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:onClick="ta"
+        android:text="Hermosillo"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn2pre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:text="Tlaxcala"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn3pre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:text="Victoria"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn4pre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:text="Chilpancingo"
+        android:textColor="#eae2b7" />
+
+    <TextView
+        android:id="@+id/lblestadopre3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -5,7 +5,7 @@
     <string name="lbl_cuestionario">Cuestionario</string>
     <string name="lbl_brujula">Brujula</string>
     <string name="lbl_ubicacion">Ubicacion</string>
-    <string name="lbl_lecciones">Lecciones</string>
+    <string name="lbl_lecciones">México y el mundo</string>
     <string name="lbl_galeria">Galeria</string>
 
     <string name="btn_cuestionario">Cuestionario</string>
@@ -20,8 +20,8 @@
 
     <string name="lbl_estudio">I Rompecabezas de paises</string>
     <string name="lbl_naturaleza">III Estados y sus Capitales</string>
-    <string name="lbl_poblacion">IV La poblacion y su diversidad</string>
-    <string name="lbl_economia">V La economia mundial</string>
+    <string name="lbl_poblacion">IV Placas Tectonicas</string>
+    <string name="lbl_economia">V Mapa de mexico</string>
 
     <string-array name="entidades_federativas">
         <item> Aguascalientes</item>
@@ -92,4 +92,6 @@
         <item>Zacatecas</item>
 
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

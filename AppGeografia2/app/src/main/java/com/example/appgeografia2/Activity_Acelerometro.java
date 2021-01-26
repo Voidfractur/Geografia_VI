@@ -20,6 +20,10 @@ public class Activity_Acelerometro extends AppCompatActivity implements SensorEv
     private long last_update = 0, last_movement = 0;
     private float prevX = 0, prevY = 0, prevZ=0;
     private float curX=0,curY=0,curZ=0;
+    private Fragment1 fragment1;
+    private Fragmento2 fragmento2;
+    private Fragmento3 fragmento3;
+    private int cont;
 
     private TextToSpeech tts;
     private TextToSpeech.OnInitListener ttsListener = new TextToSpeech.OnInitListener() {
@@ -34,8 +38,13 @@ public class Activity_Acelerometro extends AppCompatActivity implements SensorEv
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__acelerometro);
+        fragment1 = new Fragment1();
+        fragmento2 = new Fragmento2();
+        fragmento3 = new Fragmento3();
+        cont = 1;
         tts = new TextToSpeech(this,ttsListener);
-        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        //this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        getSupportFragmentManager().beginTransaction().add(R.id.contenedor,fragment1).commit();
     }
 
     @Override
@@ -63,9 +72,9 @@ public class Activity_Acelerometro extends AppCompatActivity implements SensorEv
                         if (prevX<curX) salida="Derecha";
                         if (curX<prevX) salida = "Izquierda";
                         tts.speak(salida,TextToSpeech.QUEUE_FLUSH,null);
-                        TextView orientacion = findViewById(R.id.tvOrientacion);
-                        orientacion.setText(salida);
-                        Toast.makeText(getApplicationContext(),"Hay movimiento de "+movement,Toast.LENGTH_SHORT).show();
+                        //TextView orientacion = findViewById(R.id.tvOrientacion);
+                        //orientacion.setText(salida);
+                        //Toast.makeText(getApplicationContext(),"Hay movimiento de "+movement,Toast.LENGTH_SHORT).show();
                     }
                     last_movement=current_time;
                 }
@@ -74,10 +83,34 @@ public class Activity_Acelerometro extends AppCompatActivity implements SensorEv
                 prevZ=curZ;
                 last_update=current_time;
             }
-            ((TextView) findViewById(R.id.tvX)).setText("Acelerometro X: "+curX);
-            ((TextView) findViewById(R.id.tvY)).setText("Acelerometro Y: "+curY);
-            ((TextView) findViewById(R.id.tvZ)).setText("Acelerometro Z: "+curZ);
-
+            //((TextView) findViewById(R.id.tvX)).setText("Acelerometro X: "+curX);
+           // ((TextView) findViewById(R.id.tvY)).setText("Acelerometro Y: "+curY);
+           //((TextView) findViewById(R.id.tvZ)).setText("Acelerometro Z: "+curZ);
+if (cont==1){
+    if (salida.equals("Derecha")){
+        getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragmento2).commit();
+        cont++;
+    }
+}else{
+    if (cont==2){
+        if (salida.equals("Derecha")){
+            getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragmento3).commit();
+            cont++;
+        }else{
+            if (salida.equals("Izquierda")){
+                getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragment1).commit();
+                cont--;
+            }
+        }
+    }else{
+        if (cont==3){
+            if (salida.equals("Izquierda")){
+                getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragmento2).commit();
+                cont--;
+            }
+        }
+    }
+}
         }
     }
 

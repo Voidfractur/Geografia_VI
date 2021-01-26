@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedorPre1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#370617"
+    android:orientation="vertical"
+    tools:context=".Fragmento_Pregunta1">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center|center_horizontal"
+        android:text="¿Cual es la capital de Oaxaca?"
+        android:textColor="#d62828"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/oaxaca" />
+
+    <Button
+        android:id="@+id/btn1pre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+
+        android:text="Juarez"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn2pre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+
+        android:text="Ixtlan"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn3pre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+
+        android:text="Pachuca"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn4pre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+
+        android:text="Oaxaca"
+        android:textColor="#eae2b7" />
+
+    <TextView
+        android:id="@+id/lblEstadopre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp" />
+</LinearLayout>

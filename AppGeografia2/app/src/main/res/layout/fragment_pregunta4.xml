@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedorpre4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment_pregunta4">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center|center_horizontal"
+        android:text="¿Cual es la capital de Chiapas?"
+        android:textColor="#d62828"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:src="@drawable/chiapas" />
+
+    <Button
+        android:id="@+id/btn1pre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:text="Tuxtla"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn2pre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:text="Saltillo"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn3pre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:text="Tepic"
+        android:textColor="#eae2b7" />
+
+    <Button
+        android:id="@+id/btn4pre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3d405b"
+        android:fontFamily="@font/karla_bold"
+        android:gravity="center"
+        android:text="Culiacan"
+        android:textColor="#eae2b7" />
+
+    <TextView
+        android:id="@+id/lblEstadopre4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp" />
+</LinearLayout>
