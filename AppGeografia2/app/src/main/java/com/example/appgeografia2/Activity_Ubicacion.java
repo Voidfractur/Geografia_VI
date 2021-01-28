@@ -39,6 +39,12 @@ public class Activity_Ubicacion extends AppCompatActivity {
         lblCDMX = findViewById(R.id.lblCDMX);
         lblNucleo = findViewById(R.id.lblNucleo);
         getDatosGeologicos();
+        String[] a = lblAltitud.getText().toString().replace(" ","").split(":");
+         altitude = Double.valueOf(a[1]);
+        actualizarNivelDelMar();
+        actualizarDistanciaEstacion();
+        actualizarDistanciaCDMX();
+        actualizarDistanciaNucleo();
     }
 
     public void getDatosGeologicos() {
@@ -70,10 +76,6 @@ public class Activity_Ubicacion extends AppCompatActivity {
         @Override
         public void onLocationChanged(Location location) {
             actualizarCoordenadas(location.getAltitude(),location.getLongitude(),location.getLatitude());
-            actualizarNivelDelMar();
-            actualizarDistanciaEstacion();
-            actualizarDistanciaCDMX();
-            actualizarDistanciaNucleo();
         }
     };
 

@@ -10,6 +10,7 @@
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#e76f51"
         tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="179dp">
 
