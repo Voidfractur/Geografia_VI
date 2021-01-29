@@ -17,591 +17,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/mexico">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="1011dp"
-                android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/button89"
-                    android:layout_width="37dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="68dp"
-                    android:layout_marginTop="4dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnVeracruz"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button84"
-                    android:layout_width="34dp"
-                    android:layout_height="73dp"
-                    android:layout_marginTop="52dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnMexico"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button74" />
-
-                <Button
-                    android:id="@+id/button60"
-                    android:layout_width="61dp"
-                    android:layout_height="146dp"
-                    android:layout_marginTop="248dp"
-                    android:layout_marginEnd="336dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnTamaulipas"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button59"
-                    android:layout_width="62dp"
-                    android:layout_height="161dp"
-                    android:layout_marginTop="192dp"
-                    android:layout_marginEnd="348dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnNuevoLeon"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/button58"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button57"
-                    android:layout_width="163dp"
-                    android:layout_height="188dp"
-                    android:layout_marginTop="48dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnChiuahua"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button55"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button58"
-                    android:layout_width="111dp"
-                    android:layout_height="179dp"
-                    android:layout_marginTop="128dp"
-                    android:layout_marginEnd="408dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnCoahuila"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/button57"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button56"
-                    android:layout_width="85dp"
-                    android:layout_height="181dp"
-                    android:layout_marginStart="152dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnBajaCaliforniaSur"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button55" />
-
-                <Button
-                    android:id="@+id/button61"
-                    android:layout_width="96dp"
-                    android:layout_height="89dp"
-                    android:layout_marginStart="236dp"
-                    android:layout_marginTop="12dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnSinaloa"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button57" />
-
-                <Button
-                    android:id="@+id/button64"
-                    android:layout_width="80dp"
-                    android:layout_height="83dp"
-                    android:layout_marginStart="292dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnSinaloa"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button61" />
-
-                <Button
-                    android:id="@+id/button62"
-                    android:layout_width="109dp"
-                    android:layout_height="82dp"
-                    android:layout_marginStart="344dp"
-                    android:layout_marginTop="12dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnDurango"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button57" />
-
-                <Button
-                    android:id="@+id/button63"
-                    android:layout_width="56dp"
-                    android:layout_height="43dp"
-                    android:layout_marginStart="388dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnDurango"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button62" />
-
-                <Button
-                    android:id="@+id/button69"
-                    android:layout_width="56dp"
-                    android:layout_height="76dp"
-                    android:layout_marginStart="376dp"
-                    android:layout_marginTop="40dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnNayarit"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button62" />
-
-                <Button
-                    android:id="@+id/button72"
-                    android:layout_width="56dp"
-                    android:layout_height="43dp"
-                    android:layout_marginStart="420dp"
-                    android:layout_marginTop="120dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnJalisco"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button62" />
-
-                <Button
-                    android:id="@+id/button78"
-                    android:layout_width="98dp"
-                    android:layout_height="43dp"
-                    android:layout_marginStart="476dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnMorelia"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button77" />
-
-                <Button
-                    android:id="@+id/button83"
-                    android:layout_width="143dp"
-                    android:layout_height="80dp"
-                    android:layout_marginStart="516dp"
-                    android:layout_marginTop="72dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnGuerrero"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button77" />
-
-                <Button
-                    android:id="@+id/button88"
-                    android:layout_width="165dp"
-                    android:layout_height="109dp"
-                    android:layout_marginTop="84dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnOaxaca"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button83"
-                    app:layout_constraintTop_toBottomOf="@+id/button77" />
-
-                <Button
-                    android:id="@+id/button94"
-                    android:layout_width="144dp"
-                    android:layout_height="151dp"
-                    android:layout_marginStart="168dp"
-                    android:layout_marginTop="88dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnChiapas"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button83"
-                    app:layout_constraintTop_toBottomOf="@+id/button77" />
-
-                <Button
-                    android:id="@+id/button79"
-                    android:layout_width="54dp"
-                    android:layout_height="73dp"
-                    android:layout_marginStart="460dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnMorelia"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button78" />
-
-                <Button
-                    android:id="@+id/button77"
-                    android:layout_width="56dp"
-                    android:layout_height="43dp"
-                    android:layout_marginStart="468dp"
-                    android:layout_marginTop="108dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnJalisco"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button62" />
-
-                <Button
-                    android:id="@+id/button76"
-                    android:layout_width="56dp"
-                    android:layout_height="43dp"
-                    android:layout_marginStart="50dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnGuanajuato"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button72"
-                    app:layout_constraintTop_toBottomOf="@+id/button67" />
-
-                <Button
-                    android:id="@+id/button80"
-                    android:layout_width="40dp"
-                    android:layout_height="24dp"
-                    android:layout_marginTop="16dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnQueretaro"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button74" />
-
-                <Button
-                    android:id="@+id/button85"
-                    android:layout_width="40dp"
-                    android:layout_height="24dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btncdmx"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button84"
-                    app:layout_constraintTop_toBottomOf="@+id/button81" />
-
-                <Button
-                    android:id="@+id/button86"
-                    android:layout_width="38dp"
-                    android:layout_height="24dp"
-                    android:layout_marginStart="48dp"
-                    android:layout_marginTop="8dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnTlaxcala"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button84"
-                    app:layout_constraintTop_toBottomOf="@+id/button81" />
-
-                <Button
-                    android:id="@+id/button87"
-                    android:layout_width="76dp"
-                    android:layout_height="25dp"
-                    android:layout_marginStart="12dp"
-                    android:layout_marginTop="40dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnPuebla"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button84"
-                    app:layout_constraintTop_toBottomOf="@+id/button81" />
-
-                <Button
-                    android:id="@+id/button81"
-                    android:layout_width="37dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="44dp"
-                    android:layout_marginTop="12dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnHidalgo"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button74" />
-
-                <Button
-                    android:id="@+id/button82"
-                    android:layout_width="37dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="84dp"
-                    android:layout_marginTop="44dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnVeracruz"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button90"
-                    android:layout_width="37dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="208dp"
-                    android:layout_marginTop="124dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnVeracruz"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button109"
-                    android:layout_width="101dp"
-                    android:layout_height="42dp"
-                    android:layout_marginStart="348dp"
-                    android:layout_marginTop="404dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnYucatan"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button95"
-                    android:layout_width="121dp"
-                    android:layout_height="42dp"
-                    android:layout_marginStart="248dp"
-                    android:layout_marginTop="128dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnTabasco"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button108"
-                    android:layout_width="81dp"
-                    android:layout_height="131dp"
-                    android:layout_marginStart="356dp"
-                    android:layout_marginTop="56dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnCampeche"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button91"
-                    android:layout_width="37dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="168dp"
-                    android:layout_marginTop="124dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnVeracruz"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button92"
-                    android:layout_width="37dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="124dp"
-                    android:layout_marginTop="120dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnVeracruz"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button93"
-                    android:layout_width="37dp"
-                    android:layout_height="47dp"
-                    android:layout_marginStart="124dp"
-                    android:layout_marginTop="68dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnVeracruz"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toEndOf="@+id/button76"
-                    app:layout_constraintTop_toBottomOf="@+id/button60" />
-
-                <Button
-                    android:id="@+id/button74"
-                    android:layout_width="35dp"
-                    android:layout_height="21dp"
-                    android:layout_marginStart="476dp"
-                    android:layout_marginTop="4dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnAguascalientes"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button66" />
-
-                <Button
-                    android:id="@+id/button75"
-                    android:layout_width="35dp"
-                    android:layout_height="21dp"
-                    android:layout_marginStart="440dp"
-                    android:layout_marginTop="12dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnZacatecas"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button66" />
-
-                <Button
-                    android:id="@+id/button73"
-                    android:layout_width="33dp"
-                    android:layout_height="69dp"
-                    android:layout_marginStart="416dp"
-                    android:layout_marginTop="180dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnColima"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button62" />
-
-                <Button
-                    android:id="@+id/button70"
-                    android:layout_width="50dp"
-                    android:layout_height="88dp"
-                    android:layout_marginStart="368dp"
-                    android:layout_marginTop="136dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button62" />
-
-                <Button
-                    android:id="@+id/button71"
-                    android:layout_width="50dp"
-                    android:layout_height="88dp"
-                    android:layout_marginStart="368dp"
-                    android:layout_marginTop="136dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnJalisco"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button62" />
-
-                <Button
-                    android:id="@+id/button65"
-                    android:layout_width="74dp"
-                    android:layout_height="39dp"
-                    android:layout_marginStart="476dp"
-                    android:layout_marginTop="4dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnZacatecas"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button58" />
-
-                <Button
-                    android:id="@+id/button66"
-                    android:layout_width="74dp"
-                    android:layout_height="39dp"
-                    android:layout_marginStart="444dp"
-                    android:layout_marginTop="54dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnZacatecas"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button58" />
-
-                <Button
-                    android:id="@+id/button67"
-                    android:layout_width="116dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="532dp"
-                    android:layout_marginTop="32dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="SanLuis"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button59" />
-
-                <Button
-                    android:id="@+id/button68"
-                    android:layout_width="78dp"
-                    android:layout_height="33dp"
-                    android:layout_marginStart="528dp"
-                    android:layout_marginTop="8dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="SanLuis"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button59" />
-
-                <Button
-                    android:id="@+id/button29"
-                    android:layout_width="129dp"
-                    android:layout_height="154dp"
-                    android:layout_marginTop="16dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnBajaCalifornia"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button55"
-                    android:layout_width="148dp"
-                    android:layout_height="188dp"
-                    android:layout_marginTop="48dp"
-                    android:layout_marginEnd="656dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnSonora"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/button29"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button33"
-                    android:layout_width="103dp"
-                    android:layout_height="174dp"
-                    android:layout_marginStart="44dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:onClick="btnBajaCaliforniaSur"
-                    android:shadowColor="@color/cardview_shadow_end_color"
-                    android:textColor="@color/cardview_shadow_end_color"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button29" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            android:background="@drawable/mexico"
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -609,86 +26,1893 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button31"
-                    android:layout_width="101dp"
+                    android:id="@+id/button31i"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCalifornia" />
 
                 <Button
-                    android:id="@+id/button96"
-                    android:layout_width="101dp"
+                    android:id="@+id/button96p"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCalifornia" />
 
                 <Button
                     android:id="@+id/button97"
-                    android:layout_width="101dp"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCalifornia" />
 
                 <Button
                     android:id="@+id/button98"
-                    android:layout_width="101dp"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCalifornia" />
 
                 <Button
                     android:id="@+id/button99"
-                    android:layout_width="101dp"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCaliforniaSur" />
 
                 <Button
                     android:id="@+id/button100"
-                    android:layout_width="101dp"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless" />
 
                 <Button
                     android:id="@+id/button101"
-                    android:layout_width="101dp"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless" />
 
                 <Button
                     android:id="@+id/button102"
-                    android:layout_width="101dp"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless" />
 
                 <Button
                     android:id="@+id/button103"
-                    android:layout_width="101dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button104"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button105"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button106"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button107"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button313"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSonora" />
+
+                <Button
+                    android:id="@+id/button97a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSonora" />
+
+                <Button
+                    android:id="@+id/button98a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSonora" />
+
+                <Button
+                    android:id="@+id/button99a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSonora" />
+
+                <Button
+                    android:id="@+id/button100a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCaliforniaSur" />
+
+                <Button
+                    android:id="@+id/button101a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCaliforniaSur" />
+
+                <Button
+                    android:id="@+id/button102a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCaliforniaSur" />
+
+                <Button
+                    android:id="@+id/button103a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnBajaCaliforniaSur" />
+
+                <Button
+                    android:id="@+id/button104a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnQuintanaRoo" />
+
+                <Button
+                    android:id="@+id/button105a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnQuintanaRoo" />
+
+                <Button
+                    android:id="@+id/button106a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button107a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button314"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button97b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button98b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button99b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button100b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button101b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSinaloa" />
+
+                <Button
+                    android:id="@+id/button102b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSinaloa" />
+
+                <Button
+                    android:id="@+id/button103b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSinaloa" />
+
+                <Button
+                    android:id="@+id/button104b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnQuintanaRoo" />
+
+                <Button
+                    android:id="@+id/button105b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button106b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button107b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button315"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button97c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button98c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button99c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button100c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button101c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnDurango" />
+
+                <Button
+                    android:id="@+id/button102c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSinaloa" />
+
+                <Button
+                    android:id="@+id/button103c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSinaloa" />
+
+                <Button
+                    android:id="@+id/button104c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnSinaloa" />
+
+                <Button
+                    android:id="@+id/button105c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button106c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button107c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="41dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button316"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button97d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button98d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button99d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button100d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button101d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnDurango" />
+
+                <Button
+                    android:id="@+id/button102d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnDurango" />
+
+                <Button
+                    android:id="@+id/button103d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnDurango" />
+
+                <Button
+                    android:id="@+id/button104d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnNayarit" />
+
+                <Button
+                    android:id="@+id/button105d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnNayarit" />
+
+                <Button
+                    android:id="@+id/button106d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnJalisco" />
+
+                <Button
+                    android:id="@+id/button107d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnJalisco" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button317"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button99e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button100e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnChiuahua" />
+
+                <Button
+                    android:id="@+id/button101e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnDurango" />
+
+                <Button
+                    android:id="@+id/button102e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnDurango" />
+
+                <Button
+                    android:id="@+id/button103e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnZacatecas" />
+
+                <Button
+                    android:id="@+id/button104e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnJalisco" />
+
+                <Button
+                    android:id="@+id/button105e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnJalisco" />
+
+                <Button
+                    android:id="@+id/button106e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnJalisco" />
+
+                <Button
+                    android:id="@+id/button107e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnColima" />
+
+                <Button
+                    android:id="@+id/button107e2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnColima" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button318"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button99f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button100f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button101f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button102f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnZacatecas" />
+
+                <Button
+                    android:id="@+id/button103f"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:onClick="btnYucatan" />
 
                 <Button
-                    android:id="@+id/button104"
-                    android:layout_width="101dp"
+                    android:id="@+id/button104f"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:onClick="btnQuintanaRoo" />
 
                 <Button
-                    android:id="@+id/button105"
-                    android:layout_width="101dp"
+                    android:id="@+id/button105f"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
-                    android:onClick="btnQuintanaRoo" />
+                    android:onClick="btnJalisco" />
 
                 <Button
-                    android:id="@+id/button106"
-                    android:layout_width="101dp"
+                    android:id="@+id/button106f"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
-                    android:onClick="btnQuintanaRoo" />
+                    android:onClick="btnJalisco" />
 
                 <Button
-                    android:id="@+id/button107"
-                    android:layout_width="101dp"
+                    android:id="@+id/button107f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107f2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107f3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button319"
+                    android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button99g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button100g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button101g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button102g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button103g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="SanLuis" />
+
+                <Button
+                    android:id="@+id/button104g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnAguascalientes" />
+
+                <Button
+                    android:id="@+id/button105g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnJalisco" />
+
+                <Button
+                    android:id="@+id/button106g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107g2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107g3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107g4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button31a"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button99h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button100h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button101h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button102h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button103h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="SanLuis" />
+
+                <Button
+                    android:id="@+id/button104h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="SanLuis" />
+
+                <Button
+                    android:id="@+id/button105h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuanajuato" />
+
+                <Button
+                    android:id="@+id/button106h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107h"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelia" />
+
+                <Button
+                    android:id="@+id/button107h2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107h3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107h4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button31b"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button99i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnCoahuila" />
+
+                <Button
+                    android:id="@+id/button100i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button101i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button102i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button103i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnYucatan" />
+
+                <Button
+                    android:id="@+id/button104i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="SanLuis" />
+
+                <Button
+                    android:id="@+id/button105i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuanajuato" />
+
+                <Button
+                    android:id="@+id/button106i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMexico" />
+
+                <Button
+                    android:id="@+id/button107i"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMexico" />
+
+                <Button
+                    android:id="@+id/button107i2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107i3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107i4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button31c"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button99j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button100j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button101j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button102j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTamaulipas" />
+
+                <Button
+                    android:id="@+id/button103j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTamaulipas" />
+
+                <Button
+                    android:id="@+id/button104j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="SanLuis" />
+
+                <Button
+                    android:id="@+id/button105j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnHidalgo" />
+
+                <Button
+                    android:id="@+id/button106j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMexico" />
+
+                <Button
+                    android:id="@+id/button107j"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelos" />
+
+                <Button
+                    android:id="@+id/button107j2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107j3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107j4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button31d"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button99k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button100k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button101k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTamaulipas" />
+
+                <Button
+                    android:id="@+id/button102k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTamaulipas" />
+
+                <Button
+                    android:id="@+id/button103k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTamaulipas" />
+
+                <Button
+                    android:id="@+id/button104k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnVeracruz" />
+
+                <Button
+                    android:id="@+id/button105k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnQueretaro" />
+
+                <Button
+                    android:id="@+id/button106k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTlaxcala" />
+
+                <Button
+                    android:id="@+id/button107k"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnPuebla" />
+
+                <Button
+                    android:id="@+id/button107k2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107k3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107k4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnGuerrero" />
+
+                <Button
+                    android:id="@+id/button107k5"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnMorelos" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button31e"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button99l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button100l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button101l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTamaulipas" />
+
+                <Button
+                    android:id="@+id/button102l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnTamaulipas" />
+
+                <Button
+                    android:id="@+id/button103l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button104l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button105l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnVeracruz" />
+
+                <Button
+                    android:id="@+id/button106l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnPuebla" />
+
+                <Button
+                    android:id="@+id/button107l"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnPuebla" />
+
+                <Button
+                    android:id="@+id/button107l2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107l3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107l4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107l5"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button31f"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button99m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button100m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button101m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button102m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button103m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button104m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button105m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button106m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnVeracruz" />
+
+                <Button
+                    android:id="@+id/button107m"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnVeracruz" />
+
+                <Button
+                    android:id="@+id/button107m2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107m3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107m4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107m5"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnVeracruz" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button31g"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button96n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button97n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button98n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button99n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button100n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button101n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button102n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button103n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnYucatan" />
+
+                <Button
+                    android:id="@+id/button104n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button105n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button106n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <Button
+                    android:id="@+id/button107n"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnVeracruz" />
+
+                <Button
+                    android:id="@+id/button107n2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnVeracruz" />
+
+                <Button
+                    android:id="@+id/button107n3"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107n4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnOaxaca" />
+
+                <Button
+                    android:id="@+id/button107n5"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button31h"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button96o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button97o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button98o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button99o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button100o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button101o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button102o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button103o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button104o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button105o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button106o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button107o"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnTabasco" />
+
+                    <Button
+                        android:id="@+id/button106oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnTabasco" />
+
+                    <Button
+                        android:id="@+id/button107oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnChiapas" />
+
+                    <Button
+                        android:id="@+id/button107oa2"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnChiapas" />
+
+                    <Button
+                        android:id="@+id/button107oa3"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnChiapas" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button31ha"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button96oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button97oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button98oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button99oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button100oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button101oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button102oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button103oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button104oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnYucatan" />
+
+                    <Button
+                        android:id="@+id/button105oa"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnYucatan" />
+
+                    <Button
+                        android:id="@+id/button105oa2"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnCampeche" />
+
+                    <Button
+                        android:id="@+id/button105oa3"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnCampeche" />
+
+                    <Button
+                        android:id="@+id/button105oa4"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnCampeche" />
+
+                    <Button
+                        android:id="@+id/button105oa5"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnChiapas" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button31hb"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button96ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button97ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button98ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button99ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button100ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button101ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button102ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button103ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                    <Button
+                        android:id="@+id/button104ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnYucatan" />
+
+                    <Button
+                        android:id="@+id/button105ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnQuintanaRoo" />
+
+                    <Button
+                        android:id="@+id/button106ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnQuintanaRoo" />
+
+                    <Button
+                        android:id="@+id/button107ob"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="btnQuintanaRoo" />
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
