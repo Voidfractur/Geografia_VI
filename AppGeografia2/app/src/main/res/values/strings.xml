@@ -4,13 +4,13 @@
 
     <string name="lbl_cuestionario">Cuestionario</string>
     <string name="lbl_brujula">Brujula</string>
-    <string name="lbl_ubicacion">Ubicacion</string>
+    <string name="lbl_ubicacion">Coordenadas</string>
     <string name="lbl_lecciones">México y el mundo</string>
     <string name="lbl_galeria">Galeria</string>
 
     <string name="btn_cuestionario">Cuestionario</string>
     <string name="btn_brujula">Brújula</string>
-    <string name="btn_ubicacion">Ubicación</string>
+    <string name="btn_ubicacion">Ubicacion</string>
     <string name="btn_lecciones">Lecciones</string>
     <string name="btn_galeria">Galeria</string>
     <string name="lbl_geolocalizacion">Coordenadas Geográficas</string>

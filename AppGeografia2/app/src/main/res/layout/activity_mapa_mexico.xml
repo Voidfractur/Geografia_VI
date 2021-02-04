@@ -961,19 +961,22 @@
                     android:id="@+id/button100i"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnNuevoLeon" />
 
                 <Button
                     android:id="@+id/button101i"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnNuevoLeon" />
 
                 <Button
                     android:id="@+id/button102i"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnNuevoLeon" />
 
                 <Button
                     android:id="@+id/button103i"
@@ -1077,7 +1080,8 @@
                     android:id="@+id/button101j"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:background="?attr/selectableItemBackgroundBorderless" />
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:onClick="btnNuevoLeon" />
 
                 <Button
                     android:id="@+id/button102j"

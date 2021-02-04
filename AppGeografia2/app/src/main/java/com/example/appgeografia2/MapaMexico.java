@@ -64,7 +64,7 @@ public class MapaMexico extends AppCompatActivity {
         ttsManager.initQueue("La Capital de México es Toluca de Lerdo");
     }
     public void btnMorelos(View view) {
-        ttsManager.initQueue("La Capital de Michoacan es Cuernavaca");
+        ttsManager.initQueue("La Capital de Morelos es Cuernavaca");
     }
     public void btnNayarit(View view) {
         ttsManager.initQueue("La Capital de Nayarit es Tepic");

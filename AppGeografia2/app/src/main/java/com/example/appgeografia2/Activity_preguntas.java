@@ -2,6 +2,7 @@ package com.example.appgeografia2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -25,6 +26,11 @@ private Fragment_PreguntaFinal fragment_preguntaFinal;
         getSupportFragmentManager().beginTransaction().add(R.id.contenedor, fragmento_pregunta1).commit();
         contador++;
     }
+    public void AgregarPreguntas(View view){
+        Intent AgregarPreguntas = new Intent(getApplicationContext(),Activity_AgregarPregunta.class);
+        startActivity(AgregarPreguntas);
+    }
+
 public void cambiarFragment(View view){
     switch (contador){
         case 1:
